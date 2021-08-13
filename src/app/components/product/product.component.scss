@@ -1,0 +1,38 @@
+.card {
+  width: 15rem;
+  height: 31rem;
+  margin: 10px auto;
+
+  .card-img-top {
+    height: 200px;
+    padding: 20px;
+  }
+
+  .card-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    height: 3rem;
+  }
+
+  .card-price {
+    color: red;
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  .card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    height: 6rem;
+  }
+
+  .add-to-cart-button {
+    margin: 10px 0px;
+  }
+}

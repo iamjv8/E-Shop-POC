@@ -1,0 +1,9 @@
+<div class="card" >
+    <img [src]="productData.image" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">{{ productData.title }}</h5>
+        <p class="card-text">{{ productData.description }}</p>
+        <label class="card-price">Price: Rs.{{ productData.price }}</label>
+        <button class="btn btn-success add-to-cart-button" (click)="addToCart()">Add To Cart</button>
+    </div>
+</div>

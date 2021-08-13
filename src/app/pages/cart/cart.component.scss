@@ -1,0 +1,33 @@
+.container {
+  padding: 10px 0px;
+  margin-top: 50px;
+
+  .title {
+    text-align: center;
+  }
+
+  .card-body {
+    .row {
+      padding-top: 20px;
+      img {
+        height: 150px;
+        width: 150px;
+      }
+      .product-details {
+          padding-top: 10px;
+          .product.title{
+              margin-bottom: 20px;
+              height: 25%;
+          }
+          .product-price{
+            font-size: 22px;
+            font-weight: 600;
+            height: 25%;
+          }
+          .actions {
+              height: 50%;
+          }
+      }
+    }
+  }
+}

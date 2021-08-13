@@ -1,0 +1,21 @@
+.container{
+    width: 40%;
+    padding-top: 10%;
+
+    .card{
+        box-shadow: 2px 3px 5px black;
+    }
+    .preloader {
+        align-items: center;
+        background: white;
+        display: none;
+        height: 100vh;
+        justify-content: center;
+        left: 0;
+        position: fixed;
+        top: 0;
+        transition: opacity 0.3s linear;
+        width: 100%;
+        z-index: 9999;
+      }
+}

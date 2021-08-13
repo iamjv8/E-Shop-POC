@@ -1,0 +1,19 @@
+.container {
+    padding-top: 50px;
+  .row {
+    .image {
+      height: 350px;
+    }
+    .title {
+      font-weight: 500;
+    }
+    .description {
+      font-size: 14px;
+    }
+    .price {
+      font-size: 20px;
+      color: red;
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.container {
+  padding: 20px;
+  .form-outline {
+    width: 100%;
+    margin: 10px;
+  }
+
+  .filter-card {
+    height: auto;
+    padding: 20px 10px;
+    border: none;
+    .filter-label {
+      margin-left: 10px;
+      max-width: 80%;
+    }
+  }
+
+  .sort-column {
+    padding: 10px;
+
+    .sort-label {
+      width: 30%;
+    }
+    .dropdown {
+      width: 70%;
+    }
+    .logout-btn {
+      margin-left: 10px;
+    }
+    .cart-btn {
+      height: 40px;
+      border-radius: 50%;
+      margin: 0 30px;
+      color: #6c757d;
+      font-size: 24px;
+      .cart-items-indicator {
+        position: absolute;
+        color: white;
+        background-color: red;
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        font-size: 14px;
+        font-weight: bold;
+        left: 70%;
+      }
+    }
+  }
+}
